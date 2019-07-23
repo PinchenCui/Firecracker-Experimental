@@ -38,7 +38,7 @@ update-bootengine -o /usr/src/linux/bootengine.cpio
 echo 'CONFIG_INITRAMFS_SOURCE="bootengine.cpio"' | cat \
     /var/lib/portage/coreos-overlay/sys-kernel/coreos-modules/files/amd64_defconfig-4.19 \
     - > /usr/src/linux/.config
-make vmlinux
+cd /usr/src/linux; make vmlinux
 ```
 
 # Minimum Kernel
