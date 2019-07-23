@@ -1,10 +1,11 @@
 # Firecracker-Examples
 Create a basic customized Firecracker MicroVM with CoreOS kernel.
 
-* 1. Official Firecracker Documents: https://github.com/firecracker-microvm/firecracker
-* 2. Build CoreOS kernel from Source: https://gist.github.com/dm0-/1f656b68491cd22e65ae0f33d4f1dd25
-* 3. CoreOS developer container image: https://github.com/BugRoger/coreos-developer-docker
-* 4. Customize kernel and rootfs for Firecracker: https://github.com/firecracker-microvm/firecracker/blob/master/docs/rootfs-and-kernel-setup.md
+# References
+1. Official Firecracker Documents: https://github.com/firecracker-microvm/firecracker
+2. Build CoreOS kernel from Source: https://gist.github.com/dm0-/1f656b68491cd22e65ae0f33d4f1dd25
+3. CoreOS developer container image: https://github.com/BugRoger/coreos-developer-docker
+4. Customize kernel and rootfs for Firecracker: https://github.com/firecracker-microvm/firecracker/blob/master/docs/rootfs-and-kernel-setup.md
 
 # Run Firecracker MicroVM
 * Get all the needed files:
