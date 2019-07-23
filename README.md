@@ -1,4 +1,4 @@
-# Firecracker-Examples
+# Firecracker-Experimental
 Create a basic customized Firecracker MicroVM with CoreOS kernel.
 
 # References
@@ -10,7 +10,7 @@ Create a basic customized Firecracker MicroVM with CoreOS kernel.
 # Run Firecracker MicroVM
 * Get all the needed files:
 ```
-git clone https://github.com/PinchenCui/Firecracker-Examples.git
+git clone https://github.com/PinchenCui/Firecracker-Experimental.git
 cd Firecracker-Examples.git
 ./getFiles.sh
 ```
