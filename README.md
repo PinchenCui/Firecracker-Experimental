@@ -52,7 +52,7 @@ make vmlinux
   * Using coreos.conf with CoreOS kernel source, a 500MB kernel can be generated.
   * Using kernel.conf with Linux kernel source, a 22MB minimum kernel can be generated.
 
-- Since the two file are not aligned, and all the configurations are not in same order, diff.py is created to compare two configuration files. 
+- Since the configurations in these two files are not aligned (matched line by line), and all the configurations are not in same order, diff.py is created to compare two configuration files. 
   * Total 867 entries are different.
   
  # From 500MB to 22MB
