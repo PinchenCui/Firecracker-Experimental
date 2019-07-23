@@ -1,5 +1,5 @@
 # Firecracker-Examples
-Create a basic customized Firecracker MicroVM.
+Create a basic customized Firecracker MicroVM with CoreOS kernel.
 
 * 1. Official Firecracker Documents: https://github.com/firecracker-microvm/firecracker
 * 2. Build CoreOS kernel from Source: https://gist.github.com/dm0-/1f656b68491cd22e65ae0f33d4f1dd25
@@ -46,10 +46,13 @@ make vmlinux
 make vmlinux
 ```
 - This step needs to asscociates with a compliation configuration file, which is included in this repo. 
-  * CoreOS.conf is the config file for CoreOS compliation.
+  * coreos.conf is the config file for CoreOS compliation.
   * kernel.conf is the config file for native Linux.
-  * Using CoreOS.conf with CoreOS kernel source, a 500MB kernel can be generated.
+  * Using coreos.conf with CoreOS kernel source, a 500MB kernel can be generated.
   * Using kernel.conf with Linux kernel source, a 22MB minimum kernel can be generated.
 
 - Since the two file are not aligned, and all the configurations are not in same order, diff.py is created to compare two configuration files. 
   * Total 867 entries are different.
+  
+ # From 500MB to 22MB
+- All the different entries are summarzied in diff.txt. Further customization can be applied.
