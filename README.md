@@ -55,5 +55,7 @@ make vmlinux
 - Since the configurations in these two files are not aligned (matched line by line), diff.py is created to compare two configuration files. 
   * Total 867 entries are different.
   
- # From 500MB to 22MB
+ # Journey Starts From 22MB
 - All the different entries are summarzied in diff.txt. Further customization can be applied.
+  * References of part of the configurations can be found here: https://cateee.net/lkddb/web-lkddb/
+  * 867 configurations have been enabled/changed by comparing 500MB version with 22MB version. They are related to I/O interfaces, device drivers, network protocols, service/ module configurations, and etc. 
