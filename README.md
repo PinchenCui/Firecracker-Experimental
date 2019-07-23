@@ -46,13 +46,13 @@ cd /usr/src/linux; make vmlinux
 ```
 make vmlinux
 ```
-- This step needs to asscociates with a compliation configuration file, which is included in this repo. 
+- This step asscociates with a compliation configuration file, which is included in this repo. 
   * coreos.conf is the config file for CoreOS compliation.
   * kernel.conf is the config file for native Linux.
   * Using coreos.conf with CoreOS kernel source, a 500MB kernel can be generated.
   * Using kernel.conf with Linux kernel source, a 22MB minimum kernel can be generated.
 
-- Since the configurations in these two files are not aligned (matched line by line), and all the configurations are not in same order, diff.py is created to compare two configuration files. 
+- Since the configurations in these two files are not aligned (matched line by line), diff.py is created to compare two configuration files. 
   * Total 867 entries are different.
   
  # From 500MB to 22MB
