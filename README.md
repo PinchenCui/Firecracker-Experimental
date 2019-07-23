@@ -7,6 +7,12 @@ Create a basic customized Firecracker MicroVM.
 * Customize kernel and rootfs for Firecracker: https://github.com/firecracker-microvm/firecracker/blob/master/docs/rootfs-and-kernel-setup.md
 
 # Usage
+* Get all the needed files:
+```
+git clone https://github.com/PinchenCui/Firecracker-Examples.git
+cd Firecracker-Examples.git
+./getFiles.sh
+```
 * In first terminal:
 ```
 sudo ./socket.sh
